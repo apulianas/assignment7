@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+<h1><%= @todo_list.list_name %></h1>
+<h3><%= @todo_list.due_date %></h3>
+
+<div id="todo_items">
+   <%= render @todo_list.todo_items %>
+</div>
+
+<%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |
+<%= link_to 'Back', todo_lists_path %>
