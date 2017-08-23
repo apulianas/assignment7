@@ -10,8 +10,8 @@ User.create [
    { login: "User6", password: "Password6" },
    { login: "User7", password: "Password7" },
    { login: "User8", password: "Password8" },
-   { login: "User9", password: "Password9" }
-   { login: "Matt", password: "abc123" }
+   { login: "User9", password: "Password9" },
+   { login: "Matt", password: "abc123" },
    { login: "Tim", password: "abc123" }
 ]
 
